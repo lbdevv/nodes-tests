@@ -18,14 +18,15 @@ git clone https://github.com/[tu usuario]/nodes-tests.git
 
 ### Para ejecución directa con docker----------------------------------------------
 
-[Ir a la carpeta raíz y ejecutar el siguiente comando]: docker-compose up --build  (Con esto debería bastar para poder ver el proyecto e interacturar con él)
+[Ir a la carpeta raíz y ejecutar el siguiente comando]: 
+docker-compose up --build  (Con esto debería bastar para poder ver el proyecto e interacturar con él)
 
 ### Para ejecución manual----------------------------------------------------------
 
 ### 2. Ir tanto a la carpeta de nodos-test-back y nodos-test e instalar las dependencias 
 npm install
 
-### 3. Para correr el proyecto en ambos casos se utiliza el siguiente comando:
+### 3. Para correr el proyecto en ambos casos se utiliza el siguiente comando (importante ejecutar primero el backend que está en la carpeta nodos-test-back):
 npm run dev
 
 Al iniciar se verá algo así -> (Al clickear los nodos se despliega el total).
